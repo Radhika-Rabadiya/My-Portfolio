@@ -2,7 +2,8 @@ import "./App.scss";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 import { useEffect, useState, useMemo } from "react";
-import Particles, { initParticlesEngine, loadFull } from "@tsparticles/react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadFull } from "tsparticles";
 
 import Home from "./containers/home";
 import About from "./containers/about";
